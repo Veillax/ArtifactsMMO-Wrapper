@@ -1,18 +1,20 @@
 # Artifacts MMO API Wrapper
 
-This is a Python wrapper for the Artifacts MMO API. It provides a convenient way to interact with the game's API, allowing you to automate tasks, retrieve game data, and build custom applications.
+## Overview
+This is a Python wrapper for interacting with the Artifacts MMO API, providing an easy way to interact with the game's data, perform in-game actions, and manage character and account information. This library simplifies API requests and provides a range of features to integrate with Artifacts MMO's online functionalities.
 
-## Features
-
-* **Object-oriented structure:** The wrapper is organized into classes, making it easy to use and understand.
-* **Comprehensive API coverage:**  Includes methods for accessing character data, inventory, bank, grand exchange, tasks, crafting, and more.
-* **Error handling:** Provides informative error messages for API exceptions.
-* **Automatic cooldown handling:**  The wrapper automatically waits for cooldown periods before making subsequent requests.
-* **Threading support:** Allows concurrent API calls for faster processing.
+### Features
+- **Character Management**: Create, delete, and manage character data.
+- **In-Game Actions**: Move, gather, craft, fight, and other interactive commands.
+- **Task Management**: Accept, complete, and exchange tasks from the taskmaster.
+- **Grand Exchange**: Manage buy and sell orders, view order history.
+- **Inventory and Equipment Management**: View, equip, and manage items.
+- **Bank and Gold Management**: Deposit and withdraw gold or items.
+- **Leaderboard and Events**: View event and leaderboard data.
 
 ## Installation
 
-To install the wrapper, you can simply copy the `__init__.py` file into your project directory.
+Please use PyPi to install this wrapper
 
 ## Usage
 
@@ -45,20 +47,9 @@ Contributions are welcome! If you find any bugs or have suggestions for improvem
 
 This wrapper is a third-party tool and is not officially affiliated with Artifacts MMO. Use it responsibly and at your own risk. Be aware of the game's terms of service and avoid any actions that could violate them.
 
-## Overview
-This is a Python wrapper for interacting with the Artifacts MMO API, providing an easy way to interact with the game's data, perform in-game actions, and manage character and account information. This library simplifies API requests and provides a range of features to integrate with Artifacts MMO's online functionalities.
-
-### Features
-- **Character Management**: Create, delete, and manage character data.
-- **In-Game Actions**: Move, gather, craft, fight, and other interactive commands.
-- **Task Management**: Accept, complete, and exchange tasks from the taskmaster.
-- **Grand Exchange**: Manage buy and sell orders, view order history.
-- **Inventory and Equipment Management**: View, equip, and manage items.
-- **Bank and Gold Management**: Deposit and withdraw gold or items.
-- **Leaderboard and Events**: View event and leaderboard data.
-
 ### Disclaimer
-Some of the following text is taken from the ArtifactsMMO Website to ensure it is accurate and well put for newcommers to be able to understand. It is adapted to 
+Some of the following text is taken from the ArtifactsMMO Website to ensure it is accurate and well put for new developers to be able to understand. It is adapted to suit this package. 
+
 ## How to begin playing ArtifactsMMO
 Artifacts is an asynchronous MMORPG in which you can control up to 5 characters at the same time. Your characters can fight monsters, gather resources, craft items and much more.
 
